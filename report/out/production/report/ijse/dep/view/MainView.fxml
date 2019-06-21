@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="193.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ijse.dep.countroller.MainCountroller">
+<children>
+    <TextField fx:id="searchText" layoutX="14.0" layoutY="58.0" prefHeight="35.0" prefWidth="577.0" promptText="Search Student details" />
+      <Button fx:id="search" layoutX="212.0" layoutY="129.0" mnemonicParsing="false" onAction="#SearchOrderDetails" prefHeight="25.0" prefWidth="186.0" text="Search" />
+</children>
+</AnchorPane>

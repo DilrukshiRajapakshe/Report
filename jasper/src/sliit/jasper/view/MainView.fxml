@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="MainPage" prefHeight="238.0" prefWidth="137.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sliit.jasper.countroller.jasperCountroller">
+   <children>
+      <Button fx:id="Report" layoutX="43.0" layoutY="23.0" mnemonicParsing="false" onAction="#ShowReport" text="Report" />
+      <Button fx:id="Extanal" layoutX="43.0" layoutY="70.0" mnemonicParsing="false" onAction="#ShowFile" text="Extanal" />
+      <Button fx:id="Object" layoutX="43.0" layoutY="116.0" mnemonicParsing="false" onAction="#ShowObject" text="Object" />
+      <Button fx:id="Button" layoutX="43.0" layoutY="167.0" mnemonicParsing="false" onAction="#ShowButtonReport" text="Button" />
+   </children>
+</AnchorPane>
